@@ -10,14 +10,6 @@ editable draft until a human analyst approves it.
 > certification or a SOC 2 attestation; those require qualified independent
 > auditors and, for Type II, evidence from an operating review period.
 
-## Why this aligns with SecurityPal
-
-Security assurance teams lose time locating evidence, repeating questionnaire
-answers, and translating technical records into defensible customer responses.
-This project demonstrates the product loop that matters: retrieve controlled
-corporate evidence, draft a traceable answer, expose gaps instead of
-hallucinating, and keep an accountable reviewer in control. The log workflow
-extends that loop from reactive questionnaires to proactive control assurance.
 
 ## Architecture
 
@@ -188,20 +180,6 @@ Choose `Ollama (local)` in the React composer. For OpenAI, set
 `OPENAI_API_KEY` on the backend process or Compose environment. Never commit a
 local secrets file.
 
-## Portfolio demo
-
-1. Start in Mock mode to show the application has no vendor or network
-   dependency.
-2. Paste a policy or procedure into **Document readiness** and compare its ISO
-   and SOC 2 findings.
-3. Upload `mock_security_events.log` in **Log gap analyst**.
-4. Select a proposed remediation, submit `N`, then `Y`, and export the audit log
-   to demonstrate the approval boundary.
-5. Switch to Ollama or OpenAI to demonstrate model-backed evidence synthesis.
-
-Corporate policy fixtures are in `company_iso_policies/`. They intentionally
-include control design and operating-evidence expectations so the app can
-distinguish “a policy exists” from “a control operated effectively.”
 
 ## Basic checks
 
@@ -212,5 +190,4 @@ npm run build --prefix frontend
 
 I also manually checked the main safety paths: email/IP/SSN/passport/card/secret
 redaction, mock log detection, denied execution approval, rejected non-allowed
-actions, and successful simulated remediation. No live model call is required
-for these local checks.
+actions, and successful simulated remediation.
