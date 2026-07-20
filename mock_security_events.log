@@ -1,0 +1,8 @@
+2026-06-15T08:00:00Z INFO user=employee-104 login success mfa=verified
+2026-06-15T08:05:00Z WARN user=contractor-22 failed login attempt=1
+2026-06-15T08:06:00Z WARN user=contractor-22 failed login attempt=2
+2026-06-15T08:07:00Z WARN user=contractor-22 failed login attempt=3
+2026-06-15T08:08:00Z WARN user=contractor-22 failed login attempt=4
+2026-06-15T08:09:00Z ALERT user=contractor-22 failed authentication attempt=5
+2026-06-15T09:20:00Z CRITICAL terminated user=former-19 active session detected
+2026-06-15T09:21:00Z ALERT admin role granted user=employee-208 change_ticket=missing

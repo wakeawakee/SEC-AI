@@ -1,0 +1,29 @@
+ACME CORPORATION — ISO 27001 ACCESS CONTROL POLICY
+Document owner: Information Security
+Review cycle: Annual
+
+Password controls
+- Workforce passwords must contain at least 14 characters.
+- Passwords must include uppercase and lowercase letters, a number, and a special character.
+- The previous 12 passwords may not be reused.
+- Passwords must be changed immediately when compromise is suspected. Routine forced rotation is not required unless directed by the incident response team.
+- Passwords must be stored using an approved salted, adaptive password hashing algorithm and must never be stored or transmitted in plaintext.
+
+Multi-factor authentication
+- MFA is mandatory for all workforce access to production systems, cloud administration consoles, source control, VPN, and corporate email.
+- Approved factors are FIDO2/WebAuthn hardware keys or authenticator applications using time-based one-time passwords.
+- SMS is not an approved factor except through a documented, time-limited break-glass exception authorized by the Chief Information Security Officer.
+- Privileged accounts must use phishing-resistant FIDO2/WebAuthn authentication.
+- MFA enrollment and recovery events are logged and reviewed by Security Operations.
+
+Employee offboarding
+- Human Resources must notify IT and Security immediately after an employee separation is approved.
+- For involuntary separations, all logical access must be disabled at or before the communicated termination time.
+- For planned voluntary separations, all logical access must be disabled no later than the employee's final working hour.
+- IT must revoke active sessions, VPN access, API tokens, SSH keys, MFA devices, and physical badges within four hours of account disablement.
+- The employee's manager and IT must complete the offboarding checklist, transfer ownership of business records, and preserve required evidence.
+- Security Operations reviews completion evidence within one business day. Exceptions require documented approval from the CISO and must include an expiry date.
+
+Evidence and review
+- Identity provider and ticketing-system logs are retained for 365 days.
+- Access reviews for privileged accounts occur quarterly; standard workforce access reviews occur semiannually.

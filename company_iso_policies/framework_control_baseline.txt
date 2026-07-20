@@ -1,0 +1,25 @@
+ASSESSMENT BASELINE — ISO/IEC 27001:2022 AND SOC 2 TYPE II
+Purpose: Local readiness-screening criteria. This is not certification guidance or an auditor's opinion.
+
+ISO/IEC 27001:2022 readiness themes
+- Clauses 4–10 require organizational context, leadership, planning, support, operation, performance evaluation, and continual improvement evidence.
+- A readiness package should include ISMS scope, interested parties, risk methodology, risk assessment, risk treatment plan, Statement of Applicability, objectives, competence records, controlled documents, internal audit, management review, nonconformities, and corrective actions.
+- Annex A organizational controls include policies, roles, segregation of duties, threat intelligence, asset inventory, acceptable use, access control, supplier security, incident management, business continuity, legal requirements, records, privacy, and independent review.
+- Annex A people controls include screening, employment terms, awareness, disciplinary process, responsibilities after termination, confidentiality, remote work, and event reporting.
+- Annex A physical controls include perimeters, entry, facility security, monitoring, environmental threats, secure areas, clear desk, equipment protection, off-premises assets, media, utilities, cabling, and maintenance.
+- Annex A technological controls include endpoint security, privileged access, information restriction, source access, authentication, capacity, malware protection, vulnerability management, configuration, deletion, masking, data leakage prevention, backup, redundancy, logging, monitoring, clocks, privileged utilities, software installation, network security, web filtering, cryptography, secure development, testing, outsourced development, environment separation, change management, test data, and audit-test protection.
+- A policy statement demonstrates control design only. Effectiveness requires dated samples, responsible owners, exceptions, monitoring results, and corrective-action evidence.
+
+SOC 2 Type II readiness themes
+- Security (Common Criteria) covers control environment, communication, risk assessment, monitoring, control activities, logical and physical access, system operations, change management, and risk mitigation.
+- Availability covers capacity, environmental protections, backup, recovery, and resilience commitments.
+- Processing Integrity covers complete, valid, accurate, timely, and authorized processing.
+- Confidentiality covers identification, protection, retention, and disposal of confidential information.
+- Privacy covers notice, choice and consent, collection, use and retention, access, disclosure, quality, and monitoring of personal information.
+- Readiness evidence should include a defined system description, service commitments, control owners, control frequencies, populations, evidence samples, exceptions, management responses, and complementary user-entity controls.
+- Type II evaluates whether controls were suitably designed and operated effectively throughout a stated review period. Policies or point-in-time screenshots alone cannot demonstrate Type II operating effectiveness.
+
+Assessment statuses
+- Met: The submitted document contains specific control design plus attributable operating-period evidence.
+- Partial: Control intent or design is documented, but ownership, frequency, scope, samples, dates, or effectiveness evidence is incomplete.
+- Gap: The control theme is absent, contradicts the baseline, or has no usable evidence.

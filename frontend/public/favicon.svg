@@ -1,0 +1,21 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SECAI security shield</title>
+  <desc id="desc">Gradient shield favicon with a verification checkmark.</desc>
+  <rect width="128" height="128" rx="30" fill="#131314"/>
+  <path d="M64 13L103 28.5V58.5C103 83.8 87.3 106.4 64 115C40.7 106.4 25 83.8 25 58.5V28.5L64 13Z" fill="url(#shieldGradient)" stroke="#E8EAED" stroke-opacity=".18" stroke-width="3"/>
+  <path d="M45 65.5L57.4 78L85 48" stroke="#F8FBFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 23L93 34.7V58.1C93 78.1 81.5 95.4 64 103C46.5 95.4 35 78.1 35 58.1V34.7L64 23Z" stroke="url(#innerGlow)" stroke-opacity=".9" stroke-width="2"/>
+  <defs>
+    <linearGradient id="shieldGradient" x1="28" y1="18" x2="103" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8AB4F8"/>
+      <stop offset=".42" stop-color="#A78BFA"/>
+      <stop offset=".72" stop-color="#5F8CFF"/>
+      <stop offset="1" stop-color="#81C995"/>
+    </linearGradient>
+    <linearGradient id="innerGlow" x1="41" y1="28" x2="90" y2="99" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDD663"/>
+      <stop offset=".45" stop-color="#E8EAED"/>
+      <stop offset="1" stop-color="#8AB4F8"/>
+    </linearGradient>
+  </defs>
+</svg>

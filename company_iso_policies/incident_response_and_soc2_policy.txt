@@ -1,0 +1,28 @@
+ACME CORPORATION — SECURITY MONITORING, INCIDENT RESPONSE, AND SOC 2 CONTROL POLICY
+Document owner: Security Operations
+Applies to: Production systems and supporting corporate services
+
+Security monitoring
+- Authentication, privileged access, configuration changes, and security alerts are centrally logged.
+- Security Operations monitors critical alerts continuously and triages high-severity alerts within 30 minutes.
+- Production security logs are retained for 365 days and protected from unauthorized modification.
+- Five failed authentication attempts within 10 minutes generate a high-severity alert.
+- Any access by a terminated user is a critical incident requiring immediate session revocation.
+
+Incident response
+- Suspected incidents must be recorded in the incident tracking system with severity, owner, timestamps, evidence, containment, and recovery actions.
+- Critical incidents must be escalated to the incident commander within 15 minutes.
+- Post-incident reviews are completed within five business days and corrective actions are tracked to closure.
+- Incident response simulations occur at least annually, with attendance and lessons learned retained.
+
+SOC 2 operating evidence
+- Control owners retain dated evidence that controls operated throughout the applicable review period.
+- Quarterly user access reviews must show reviewer identity, scope, exceptions, resolution, and completion date.
+- Change records require documented testing and approval before production deployment.
+- Vendor risk reviews occur before onboarding and annually thereafter for critical vendors.
+- Backups run daily; restoration tests occur quarterly and results are retained.
+
+Data protection
+- Confidential data is encrypted with approved cryptography in transit and at rest.
+- Payment card data and government identifiers may not appear in application logs.
+- Data retention and deletion follow the approved records schedule and legal holds.
